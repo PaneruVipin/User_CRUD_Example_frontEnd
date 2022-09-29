@@ -56,12 +56,3 @@ fetchUsers:usersFetchAction
 
 export default connect(mapStateToProps, mapDispatchToProps)(memo(UserPage));
 
-/**
- * echo "# user-inspect" >> README.md
-git init
-git add -A
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/PaneruVipin/user-inspect.git
-git push -u origin main
- */
