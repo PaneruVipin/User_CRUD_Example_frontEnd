@@ -6,7 +6,7 @@ type UserCardProps = {
 };
 
 const UserCard: FC<UserCardProps> = ({user}) => {
-  return <div className="md:h-60 rounded-md md:gap-x-20 gap-x-2 shadow-md bg-white flex justify-between items-center md:px-20 ">
+  return <div className="md:h-60 rounded-md md:gap-x-20 gap-x-2 shadow-md bg-white flex md:flex-row flex-col justify-between items-center md:px-20 px-8 ">
            <img className="w-44 h-44 rounded-full shadow-md object-cover" src={(user?.picture?.medium)
            ?(user?.picture?.medium)
             :'https://www.clipartmax.com/png/middle/364-3643767_about-brent-kovacs-user-profile-placeholder.png'}></img>
